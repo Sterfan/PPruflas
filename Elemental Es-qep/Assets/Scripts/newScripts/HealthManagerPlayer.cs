@@ -11,8 +11,6 @@ public class HealthManagerPlayer : MonoBehaviour
     public float  currentHealth;
     public Slider healthBar;
     public GameObject deathAnimation;
-    public float waitForIT = 0.5f;
-    public float cooldown = 0.5f;
     public static bool playerAlive;
 
     void Start()
@@ -36,26 +34,24 @@ public class HealthManagerPlayer : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            cooldown -= Time.deltaTime;
+            
             playerAlive = false;
 
             
-
-            Instantiate(deathAnimation, transform.position, transform.rotation);
+           Instantiate(deathAnimation, transform.position, transform.rotation);
+            
 
             FindObjectOfType<AudioManager>().StopMusic("Warning");
 
             FindObjectOfType<AudioManager>().Play("PlayerDeath");
 
-            if (cooldown <= 0)
-            {
                 PlayerColorChange.spriteVersion = 0;
                 Shooting.currentBullet = 0;
                 scoreScript.scoreValue = 0;
                 Destroy(gameObject);
-                cooldown = waitForIT;
-                SceneManager.LoadScene("EndScreen");
-            }
+                
+
+            
 
 
         }
@@ -75,6 +71,11 @@ public class HealthManagerPlayer : MonoBehaviour
        if (other.gameObject.tag == "HP" && currentHealth != maxHealth)
         {
             currentHealth = currentHealth + 5f;
+
+            if (maxHealth >= 20)
+            {
+                maxHealth = 20;
+            }
         }
 
         else if (other.gameObject.tag != "HP")
