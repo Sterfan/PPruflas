@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &837735783403596879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 837735783403596877}
+  - component: {fileID: 837735783403596878}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &837735783403596877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837735783403596879}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &837735783403596878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837735783403596879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a92441d0f4fca4fba72099091fceab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioFiles:
+  - audioName: FireShotTest1
+    audioClip: {fileID: 8300000, guid: a6bacf53b003abd4bb7987247fc5b2ad, type: 3}
+    volume: 0.1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: WaterShotTest1
+    audioClip: {fileID: 8300000, guid: ee0ff7a220d15964abc1ade011a8581e, type: 3}
+    volume: 0.1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: RockShotTest1
+    audioClip: {fileID: 8300000, guid: c480329bfc81f4e45b4ec89ec5f8c6c2, type: 3}
+    volume: 0.1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: WindShotTest1
+    audioClip: {fileID: 8300000, guid: e6d4a504fbd81324085950a80722d1b8, type: 3}
+    volume: 0.1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: PlayerExplosion
+    audioClip: {fileID: 8300000, guid: 2cf5238bb6dbd08488140290059a306f, type: 3}
+    volume: 0.3
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: BackgroundMusic
+    audioClip: {fileID: 8300000, guid: af2b5c52dcad26a40b1e72a330e5b6d5, type: 3}
+    volume: 0.75
+    source: {fileID: 0}
+    isLooping: 1
+    playOnAwake: 0
+  - audioName: UpgradeHealth
+    audioClip: {fileID: 8300000, guid: 97639b1e992d3b44585e977c8b605f0d, type: 3}
+    volume: 0.25
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: WrongHit
+    audioClip: {fileID: 8300000, guid: 55d581f466cc43d4e9e18b206c3b96c9, type: 3}
+    volume: 0.25
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: SwitchWeapon
+    audioClip: {fileID: 8300000, guid: e91f30cb5f2b3df46981b80b3adeb546, type: 3}
+    volume: 0.5
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: EnemyFireShot
+    audioClip: {fileID: 8300000, guid: 82088dba3c9337d409bf9d0c7e4ffff7, type: 3}
+    volume: 0.1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: EnemyWindShot
+    audioClip: {fileID: 8300000, guid: c591b7ea32576c145be6b1a9bff3a14b, type: 3}
+    volume: 0.1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: EnemyWaterShot
+    audioClip: {fileID: 8300000, guid: 4683767b9bf744740a394a0d7f3ebf7f, type: 3}
+    volume: 0.1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: EnemyEarthShot
+    audioClip: {fileID: 8300000, guid: 2759dc1fd55ff974ba91bfd661780d06, type: 3}
+    volume: 0.1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: FireHitWithWater
+    audioClip: {fileID: 8300000, guid: 990e0d28ff6835248bd5aaa9b9bad27c, type: 3}
+    volume: 0.3
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: WaterHitWithWind
+    audioClip: {fileID: 8300000, guid: ff686da41ae749e49b4b15cb661a2d6a, type: 3}
+    volume: 0.3
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: WindHitWithEarth
+    audioClip: {fileID: 8300000, guid: ad18c9e130c50174cadeee29ee4692bc, type: 3}
+    volume: 0.3
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: EarthHitWithFire
+    audioClip: {fileID: 8300000, guid: e0db78ec2e654b14cb722e5798869fe2, type: 3}
+    volume: 0.3
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: BackgroundAmbiance
+    audioClip: {fileID: 8300000, guid: 57a691f1117eb0044b96ded2b3c0ddec, type: 3}
+    volume: 0.03
+    source: {fileID: 0}
+    isLooping: 1
+    playOnAwake: 0
+  - audioName: TitleTheme
+    audioClip: {fileID: 8300000, guid: 9fdaf97865cd0c24d98664e069816956, type: 3}
+    volume: 0.5
+    source: {fileID: 0}
+    isLooping: 1
+    playOnAwake: 0
+  - audioName: TitleTheme2
+    audioClip: {fileID: 8300000, guid: ffb403aa59b9ea248be2525693ed60e7, type: 3}
+    volume: 0.35
+    source: {fileID: 0}
+    isLooping: 1
+    playOnAwake: 0
+  - audioName: PlayerDeath
+    audioClip: {fileID: 8300000, guid: 8ce78f497e51be24abef2a40be0b7511, type: 3}
+    volume: 0.25
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: Buttons
+    audioClip: {fileID: 8300000, guid: 0e82fbb0116697d4b9fed680b524378f, type: 3}
+    volume: 0.1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: ButtonsHover
+    audioClip: {fileID: 8300000, guid: 52d94e859b8a38f4aad24f31a6d408b7, type: 3}
+    volume: 0.1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: StartButton
+    audioClip: {fileID: 8300000, guid: e9ebbaf72a8bae846843d990d10de5f4, type: 3}
+    volume: 0.25
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: YouLost
+    audioClip: {fileID: 8300000, guid: e7d87ae5a78fa4147add83ec26400f1d, type: 3}
+    volume: 0.2
+    source: {fileID: 0}
+    isLooping: 1
+    playOnAwake: 0
+  - audioName: Boss1
+    audioClip: {fileID: 8300000, guid: 0b075460873323a4280f1e44381ce55c, type: 3}
+    volume: 0.5
+    source: {fileID: 0}
+    isLooping: 1
+    playOnAwake: 0
+  - audioName: Warning
+    audioClip: {fileID: 8300000, guid: 4085220eb4e590e41ab8f89ffae6e44d, type: 3}
+    volume: 0.05
+    source: {fileID: 0}
+    isLooping: 1
+    playOnAwake: 0
+  - audioName: Winner
+    audioClip: {fileID: 8300000, guid: 84f1ee30c84f958479b154a22b639dbd, type: 3}
+    volume: 0.2
+    source: {fileID: 0}
+    isLooping: 1
+    playOnAwake: 0
+  Mixer: {fileID: 24100000, guid: d84644eb59c7bb743ab737ba29f18437, type: 2}
