@@ -506,7 +506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5193080e0504de743820cfd82dfea1f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
+  maxHealth: 4
   currentHealth: 0
   healthBar: {fileID: 2976209351537715458}
   deathAnimation: {fileID: 6343939735063645384, guid: 55dd851d0d46e024bb101ebda7755d59,
@@ -1069,12 +1069,12 @@ PrefabInstance:
     - target: {fileID: 643443139978158638, guid: a1600ddb484abcd45a3482604baf0581,
         type: 3}
       propertyPath: m_MaxValue
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 643443139978158638, guid: a1600ddb484abcd45a3482604baf0581,
         type: 3}
       propertyPath: m_Value
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 643443139978158638, guid: a1600ddb484abcd45a3482604baf0581,
         type: 3}
