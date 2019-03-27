@@ -918,11 +918,6 @@ PrefabInstance:
       propertyPath: m_ReferencePixelsPerUnit
       value: 500
       objectReference: {fileID: 0}
-    - target: {fileID: 7340912468828933291, guid: 84e1ffa97e3a6e748b68e1a710e46fcb,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7340912468875641790, guid: 84e1ffa97e3a6e748b68e1a710e46fcb,
         type: 3}
       propertyPath: m_AnchoredPosition.y
