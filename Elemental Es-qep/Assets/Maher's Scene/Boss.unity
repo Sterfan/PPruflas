@@ -2300,6 +2300,7 @@ GameObject:
   - component: {fileID: 937263030}
   - component: {fileID: 937263026}
   - component: {fileID: 937263029}
+  - component: {fileID: 937263031}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2397,6 +2398,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 406e35ce55804a943933cf9b1d03a5eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &937263031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937263025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01f8b9a012ee70e49a12948ee55a0994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitForIT: 1
+  cooldown: 1
 --- !u!1 &950909984
 GameObject:
   m_ObjectHideFlags: 0
@@ -3711,8 +3726,6 @@ MonoBehaviour:
   healthBar: {fileID: 88554193}
   deathAnimation: {fileID: 5312176235987470352, guid: 75831b0acc5f9b54db05eff663aec8e2,
     type: 3}
-  waitForIT: 1
-  cooldown: 1
 --- !u!114 &1774469971
 MonoBehaviour:
   m_ObjectHideFlags: 0

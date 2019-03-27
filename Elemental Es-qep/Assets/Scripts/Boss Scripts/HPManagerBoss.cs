@@ -11,8 +11,6 @@ public class HPManagerBoss : MonoBehaviour
     public int currentHealth;
     public Slider healthBar;
     public GameObject deathAnimation;
-    public float waitForIT = 1;
-    public float cooldown = 1;
     public static bool win;
 
 
@@ -33,16 +31,14 @@ public class HPManagerBoss : MonoBehaviour
             PlayerColorChange.spriteVersion = 0;
             Shooting.currentBullet = 0;
             win = true;
-            cooldown -= Time.deltaTime;
+            
             Instantiate(deathAnimation, transform.position, transform.rotation);
             
             FindObjectOfType<AudioManager>().Play("PlayerExplosion");
-            if (cooldown <= 0)
-            {
+            
                 Destroy(gameObject);
-                cooldown = waitForIT;
-                SceneManager.LoadScene("WinScreen");
-            }
+               
+            
 
 
         }
