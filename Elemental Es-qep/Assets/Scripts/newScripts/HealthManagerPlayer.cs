@@ -23,7 +23,7 @@ public class HealthManagerPlayer : MonoBehaviour
     void Update()
     {
         healthBar.value = currentHealth;
-
+       
         if (currentHealth > 5)
         {
 
@@ -72,9 +72,9 @@ public class HealthManagerPlayer : MonoBehaviour
         {
             currentHealth = currentHealth + 5f;
 
-            if (maxHealth >= 20)
+            if (currentHealth >= 20)
             {
-                maxHealth = 20;
+                currentHealth = 20;
             }
         }
 
