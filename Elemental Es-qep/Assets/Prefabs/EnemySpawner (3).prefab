@@ -47,7 +47,7 @@ MonoBehaviour:
   Waves:
   - name: EarthEnemy
     enemy: {fileID: 635986157007813088, guid: 48deb48f1ef1b794096b08356a784f5a, type: 3}
-    amount: 1
+    amount: 2
     rate: 1
   spawnPoints:
   - {fileID: 3904507147439604167}

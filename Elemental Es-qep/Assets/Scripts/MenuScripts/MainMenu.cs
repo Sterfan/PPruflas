@@ -17,7 +17,7 @@ public class MainMenu : MonoBehaviour
 
         FindObjectOfType<AudioManager>().Play("TitleTheme");
         //yield return new WaitForSeconds(6.865f);
-        FindObjectOfType<AudioManager>().Play("TitleTheme2");
+        //FindObjectOfType<AudioManager>().Play("TitleTheme2");
         StartCoroutine(Wait());
 
     }

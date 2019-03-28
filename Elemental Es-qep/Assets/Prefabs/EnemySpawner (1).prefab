@@ -47,7 +47,7 @@ MonoBehaviour:
   Waves:
   - name: WindEnemy
     enemy: {fileID: 4895113962803132703, guid: 534f5d90e2208504eb7792214a808c7c, type: 3}
-    amount: 2
+    amount: 3
     rate: 1
   spawnPoints:
   - {fileID: 7684505248699425317}

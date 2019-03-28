@@ -82,7 +82,7 @@ MonoBehaviour:
   Waves:
   - name: WaterEnemy
     enemy: {fileID: 2409631107855272649, guid: 6c7aabf0a683a0748a6bf7d41265701a, type: 3}
-    amount: 2
+    amount: 3
     rate: 1
   spawnPoints:
   - {fileID: 3127745511257278093}

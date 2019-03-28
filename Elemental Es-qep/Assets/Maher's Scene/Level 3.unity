@@ -137,7 +137,7 @@ PrefabInstance:
     - target: {fileID: 7684505249904516591, guid: 964980ea789a2574295faaf4211eb859,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.22
+      value: 9.85
       objectReference: {fileID: 0}
     - target: {fileID: 7684505249904516591, guid: 964980ea789a2574295faaf4211eb859,
         type: 3}
@@ -433,7 +433,7 @@ PrefabInstance:
     - target: {fileID: 5562871266855603350, guid: ad4fd11eb6df8ff45bf942e277b45b1a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.41
+      value: 9.71
       objectReference: {fileID: 0}
     - target: {fileID: 5562871266855603350, guid: ad4fd11eb6df8ff45bf942e277b45b1a,
         type: 3}
@@ -724,7 +724,7 @@ MonoBehaviour:
   - name: Earth
     enemyShip: {fileID: 635986157007813088, guid: 48deb48f1ef1b794096b08356a784f5a,
       type: 3}
-    count: 2
+    count: 3
     rate: 1
   - name: Fire
     enemyShip: {fileID: 7083493219746636912, guid: 1f58012c571bfb847900f6d0aeee92e0,
@@ -739,13 +739,13 @@ MonoBehaviour:
   - name: wind
     enemyShip: {fileID: 4895113962803132703, guid: 534f5d90e2208504eb7792214a808c7c,
       type: 3}
-    count: 2
+    count: 3
     rate: 1
   spawnPoints:
   - {fileID: 1897992812}
   - {fileID: 106688021}
   - {fileID: 1945292949}
-  timeBetweenWaves: 8
+  timeBetweenWaves: 4
 --- !u!4 &1730105247
 Transform:
   m_ObjectHideFlags: 0
