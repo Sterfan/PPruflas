@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 1530670453998372598}
   - component: {fileID: 7532393906774372644}
   - component: {fileID: 6340948476368922221}
-  - component: {fileID: 8673758891240744618}
   - component: {fileID: 7532393906774372645}
   - component: {fileID: 6839025537430944133}
   - component: {fileID: 3428936902598194796}
@@ -148,8 +147,6 @@ MonoBehaviour:
     type: 3}
   deathAnimation: {fileID: 4384832423005269797, guid: 7c8e60e8ab47f2c488392ec8c7e6a823,
     type: 3}
-  waitForIT: 1
-  cooldown: 1
 --- !u!50 &7532393906774372644
 Rigidbody2D:
   serializedVersion: 4
@@ -181,18 +178,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7155451ff115f094ca0883785ce7fe79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &8673758891240744618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7532393906774372652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d56d9c760cca9d8479e779cab023cb73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!60 &7532393906774372645
@@ -552,6 +537,11 @@ MonoBehaviour:
   ShipEarth: {fileID: 21300000, guid: 89757d77e8b4dc74b841a3343961e7e1, type: 3}
   ShipWind: {fileID: 21300000, guid: e1a1256336af36c47a4a632c9be78fbc, type: 3}
   ShipWater: {fileID: 21300000, guid: 09a3764d11b8fe041aeb14138d756b1b, type: 3}
+  sprites:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &3428936902598194796
 MonoBehaviour:
   m_ObjectHideFlags: 0

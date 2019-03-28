@@ -203,6 +203,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7532393906774372652, guid: 36b19cd676dd7c24992462daf5a7d2cc,
         type: 3}
       propertyPath: m_Name
@@ -401,6 +405,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799275782089073096, guid: 86dc03dfd342881439db2af46146d41c,
+        type: 3}
+      propertyPath: Waves.Array.data[0].amount
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86dc03dfd342881439db2af46146d41c, type: 3}
@@ -838,6 +847,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.7
       objectReference: {fileID: 0}
+    - target: {fileID: 2284100745205623114, guid: 6d14f99a4ba8a7f4b8311ce6bd31daed,
+        type: 3}
+      propertyPath: Waves.Array.data[0].amount
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d14f99a4ba8a7f4b8311ce6bd31daed, type: 3}
 --- !u!1 &1601381125
@@ -1097,6 +1111,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5562871266855603349, guid: ad4fd11eb6df8ff45bf942e277b45b1a,
+        type: 3}
+      propertyPath: Waves.Array.data[0].amount
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad4fd11eb6df8ff45bf942e277b45b1a, type: 3}
 --- !u!1001 &1933002385
@@ -1180,6 +1199,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7684505249904516590, guid: 964980ea789a2574295faaf4211eb859,
+        type: 3}
+      propertyPath: Waves.Array.data[0].amount
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 964980ea789a2574295faaf4211eb859, type: 3}

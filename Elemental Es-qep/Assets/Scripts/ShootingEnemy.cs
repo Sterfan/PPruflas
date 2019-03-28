@@ -27,7 +27,6 @@ public class ShootingEnemy : MonoBehaviour
             {
                 GameObject bullet = (GameObject)Instantiate(Bulletprefab, transform.position, transform.rotation);
                 //bullet.layer = gameObject.layer;
-
                 FindObjectOfType<AudioManager>().Play("EnemyEarthShot");
 
             }
@@ -36,7 +35,6 @@ public class ShootingEnemy : MonoBehaviour
             {
                 GameObject bullet = (GameObject)Instantiate(Bulletprefab, transform.position, transform.rotation);
                 //bullet.layer = gameObject.layer;
-
                 FindObjectOfType<AudioManager>().Play("EnemyFireShot");
 
             }
@@ -45,7 +43,6 @@ public class ShootingEnemy : MonoBehaviour
             {
                 GameObject bullet = (GameObject)Instantiate(Bulletprefab, transform.position, transform.rotation);
                 //bullet.layer = gameObject.layer;
-
                 FindObjectOfType<AudioManager>().Play("EnemyWaterShot");
 
             }
@@ -54,7 +51,6 @@ public class ShootingEnemy : MonoBehaviour
             {
                 GameObject bullet = (GameObject)Instantiate(Bulletprefab, transform.position, transform.rotation);
                 //bullet.layer = gameObject.layer;
-
                 FindObjectOfType<AudioManager>().Play("EnemyWindShot");
 
             }

@@ -23,7 +23,7 @@ public class HealthManagerPlayer : MonoBehaviour
     void Update()
     {
         healthBar.value = currentHealth;
-       
+
         if (currentHealth > 5)
         {
 
@@ -72,9 +72,9 @@ public class HealthManagerPlayer : MonoBehaviour
         {
             currentHealth = currentHealth + 5f;
 
-            if (currentHealth >= 20)
+            if (maxHealth >= 20)
             {
-                currentHealth = 20;
+                maxHealth = 20;
             }
         }
 
@@ -105,6 +105,11 @@ public class HealthManagerPlayer : MonoBehaviour
             currentHealth -= 5;
         }
 
+        if (other.gameObject.tag == "Boss")
+        {
+            Camera.main.GetComponent<ScreenShake>().Shake(0.3f, 0.3f);
+            currentHealth -= 2;
+        }
     }
     //public void TakingDamage(int damagetaken)
     //{
